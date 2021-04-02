@@ -1,0 +1,17 @@
+{
+  "name": "TOCBuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/tocBuilder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "fs-extra": "^9.1.0",
+    "glob": "^7.1.6"
+  }
+}
