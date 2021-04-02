@@ -1,0 +1,19 @@
+<!-- navigation start -->
+
+---
+
+<div align="center">
+  <%_ if(locals.prev){ _%> :arrow_left:&nbsp;
+  <a href="../<%= locals.prev %>"><%= locals.prev %></a>
+  <%_} _%> <%- (locals.prev && locals.next) ? '&nbsp;&nbsp;||&nbsp;&nbsp;' : ''
+  %> <%_ if(locals.next){ _%>
+  <a href="../<%= locals.next %>"><%= locals.next %></a>
+  &nbsp;:arrow_right: <%_} _%>
+</div>
+
+---
+
+<div align="center">
+  <small>&copy;CodeWizard LTD</small>
+</div>
+<!-- navigation end -->
